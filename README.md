@@ -41,12 +41,12 @@ This assignment aims to familiarize you with the tools and configurations necess
    **Configured Git**
    1.`git config --global user.name "peterjames3"`
    2. `git config --global user.email "email"`
-   3. To verify my configuration I used `git config --list` [infor:](images/git.png)
-   4. I created a github account ![peterjames3]](https://github.com/peterjames3)
+   3. To verify my configuration I used `git config --list` ![infor:](images/git.png)
+   4. I created a github account [peterjames3]](https://github.com/peterjames3)
    5. Initialize a Git Repository Locally and  created a folder : ecommerce-product-page-main and cd inside the folder.
    6. I created a vite, tailwindcss and react project using `npm create vite@latest ecommerce -- --template react`
    7. I initialized a new Git repository using `git init` and added a remote repo, made my first commit, and pushed it to github using `git push -u origin master.
-   8. ![E-commerce](https://github.com/peterjames3/React-E-commerce)
+   8. [E-commerce](https://github.com/peterjames3/React-E-commerce)
    
 ## Install Necessary Programming Languages and Runtimes:
    For my case since I'm using ubuntu python by default came preinstalled, so I only needed to install virtual environment and django
@@ -55,17 +55,17 @@ This assignment aims to familiarize you with the tools and configurations necess
    1. I created a directory `mkdir DjangoProjectC` and cd into the dir ![Process:](images/django.png)
      
      **Installing flutter**
-   1. I visited their official website ![flutter.dev/get-started](https://docs.flutter.dev/get-started/install).
+   1. I visited their official website [flutter.dev/get-started](https://docs.flutter.dev/get-started/install).
    2. I went with linux since it's OS of choice
    3. I updated my system using `sudo apt-get update -y && sudo apt-get upgrade -y;`
    4. I downloaded flutter_linux_3.22.2-stable.tar.xz
    5. I extracted the file using `tar -xf ~/Downloads/flutter_linux_3.22.2-stable.tar.xz -C /usr/bin/`
-   6. I added it to my path [Path:](images/flutter.png)
+   6. I added it to my path ![Path:](images/flutter.png)
    7. To solve the issues I used various commands `sudo apt intall clang && apt install cmake && apt install ninja-build && apt install libgtk-3-dev`
 
 ## Install Package Managers:
    **If applicable, install package managers like pip (Python)**
-   pip come pre-installed in linux [pip](images/pip.png)
+   pip come pre-installed in linux ![pip](images/pip.png)
 
    **node js**
    1. I installed nodejs using `sudo apt-get install nodejs`
@@ -74,27 +74,27 @@ This assignment aims to familiarize you with the tools and configurations necess
 ## Configure a Database (MySQL):
   **Download and install MySQL database.** 
    1. To ensure the latest MYSQL version installation, I updated and upgraded the package repository using `sudo apt update && apt upgrade -y`
-   2. I installed MYSQL using `sudo apt install mysql-server` and verify with `mysql --version` [version](images/mysql-version.png) 
+   2. I installed MYSQL using `sudo apt install mysql-server` and verify with `mysql --version` ![version](images/mysql-version.png) 
    3. To secure my installation I used `sudo mysql_secure_installation` command.
-   4. [Password validation](images/validate-password-terminal-output.png) Users have three options for password policy:
+   4. ![Password validation](images/validate-password-terminal-output.png) Users have three options for password policy:
 
     0 - low.
     1 - medium.
     2 - strong.
 
-    Select one option and hit Enter. [2](images/select-password-strenhgt-terminal-output.png)
-   5. Remove anonymous Users [anoymous](images/remove-anonimous-user-terminal-output.png)
-   6. [Disallow Root Login Remotely](images/disallow-root-login-remotely-terminal-output.png)
-   7. [Remove Test Database](images/remove-test-database-terminal-output.png)
+    Select one option and hit Enter. ![2](images/select-password-strenhgt-terminal-output.png)
+   5. Remove anonymous Users ![anoymous](images/remove-anonimous-user-terminal-output.png)
+   6. ![Disallow Root Login Remotely](images/disallow-root-login-remotely-terminal-output.png)
+   7. ![Remove Test Database](images/remove-test-database-terminal-output.png)
    8. Reload privileged Tables
    9.Check if mysql service is running using `MYSQL systemctl status mysql`
    10. Log in to MYSQL Server `sudo mysql -u root`
-   11. I installed  mysqlworkbench ubuntu software [workbench](images/workbench.png)
+   11. I installed  mysqlworkbench ubuntu software ![workbench](images/workbench.png)
 
 ## Set Up Development Environments and Virtualization (Optional):
    **installation of virtual machine**
    1. I used  ![Gcore](https://gcore.com/learning/how-to-install-virtualbox-on-ubuntu/).
-   2. [virtualbox](images/virtualbox.png)
+   2. ![virtualbox](images/virtualbox.png)
 
 ## Explore Extensions and Plugins:
    Upon launching VS Code, I was immediately impressed by the clean, modern interface. My first task was to personalize the environment to suit my preferences.
